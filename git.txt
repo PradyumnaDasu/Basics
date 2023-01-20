@@ -1,0 +1,80 @@
+1) What is the method signature (return type, method name, and parameters) of the last function in this blob?
+
+Answer-
+
+Return type- int
+method name- cmd_worktree
+parameters- ac(int), av, prefix
+
+
+
+2)  What is the latest version of the release notes (RelNotes....txt) for the git repository?
+
+Output - The latest version of release notes is RelNotes-1.5.2.txt
+
+
+
+
+3) What is the output of git cat-file -p 83484f | tail -4 | head -1? Briefly explain what this command does.
+
+Output - 100644 blob f55d4083edd518a0dad26a37ac4d5c6877184c4f    tutorial.txt
+
+git-cat-file is used to Provide content or type and size information for repository objects
+
+-p is used to pretty print the object based on its type.
+
+To see last 4 lines, we use tail-4
+
+the top line in the bottom four lines is accessed using tail-4| head -1
+
+
+
+5) What is the commit message submitted with this commit?
+
+
+Answer- 
+l10n: de.po: Update German translation for Git v2.31.0
+
+Reviewed-by: Ralf Thielow <ralf.thielow@gmail.com>
+Reviewed-by: Phillip Szelat <phillip.szelat@gmail.com>
+Signed-off-by: Matthias Rüster <matthias.ruester@gmail.com>
+
+
+
+
+6)Write a bash command(s) to search the commit graph for commits that mention the word "refactored". 
+Then, run the command and add the output (answer should include command and output).
+
+command- git log --oneline| grep "refactored"
+
+Output - 94bcad7979 sequencer: change complete_action() to use the refactored functions
+bbfe5302d5 implement test_might_fail using a refactored test_must_fail
+c18f75a1e9 send-email: add tests for refactored prompting
+
+
+
+
+7) What is the name of the first file listed that changed between versions 2.31.0 and 2.31.1?
+
+Answer- RelNotes/2.31.1.txt
+
+
+
+
+
+8) Provide a list of all the branches for the git repository
+
+master
+* todo
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/jch
+  remotes/origin/main
+  remotes/origin/maint
+  remotes/origin/master
+  remotes/origin/next
+  remotes/origin/seen
+  remotes/origin/todo
+
+
+
+
