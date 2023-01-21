@@ -5,8 +5,8 @@ Hello Github! <br />
 
 Stand up meeting team members: <br />
 
-Pradyumna Upendra Dasu <pradyumnaupendra> <br />
-Satya Sri Harsha Bhamidipati <harshabhamidipat> <br />
-Jayanth Narla <jnarla> <br />
-Huayu Liang <huayu98> <br />
-Dhruveel Lalit Chouhan <dhruveel10> <br />
+Pradyumna Upendra Dasu - pradyumnaupendra <br />
+Satya Sri Harsha Bhamidipati -harshabhamidipat  <br />
+Jayanth Narla - jnarla <br />
+Huayu Liang - huayu98 <br />
+Dhruveel Lalit Chouhan - dhruveel10 <br />
